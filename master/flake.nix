@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-unicodeplus-master.flake = false;
+  inputs.src-unicodeplus-master.ref   = "refs/heads/master";
   inputs.src-unicodeplus-master.owner = "nitely";
-  inputs.src-unicodeplus-master.ref   = "master";
   inputs.src-unicodeplus-master.repo  = "nim-unicodeplus";
   inputs.src-unicodeplus-master.type  = "github";
   
